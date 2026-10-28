@@ -1,0 +1,4 @@
+interface:
+  display_name: "开源准备"
+  short_description: "在独立副本中检查隐私与许可、验证演示并准备可审阅的开源发布包"
+  default_prompt: "使用 $open-source-prep 为指定项目制作经过检查、验证和打包的公开候选版。"

@@ -1,0 +1,22 @@
+# Private configuration and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local audit material, outputs and caches
+.audit/
+private/
+workspaces/
+attempts/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
